@@ -5,10 +5,13 @@ This is a automation program to display all your class list in the [BinusMyClass
 This program is made using Java and `Selenium driver` which can enable web browser automation.
 
 ## How to Use
-- Download and extract all the code
-- Click the `BinusMyClass.exe` to run this program
-- Then follow the flow of this program.
-> Note: Before run this program, please close all the chrome browser. Because this selenium driver will use your chrome default browser to run the zoom meetings.
+
+- Go to `Release` or just click [this](https://github.com/ChocolatePopcorn/BinusMyClass/releases/tag/v1.0.0)
+- Download the `BinusMyClass.exe`
+- Then run the program and follow the flow of the program.
+> Note: 
+> 1. After downloaded the `BinusMyClass.exe`, you may seen "BinusMyClass.exe is not commonly downloaded and may be dangerous." You can't ignore that, because this program doesn't contain any viruses 
+>2. Before run this program, please close all the chrome browser. Because this selenium driver will use your chrome default browser to run the zoom meetings.
 
 ## Information
 
