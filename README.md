@@ -17,7 +17,7 @@ This program is made using Java and `Selenium driver` which can enable web brows
 
 - This program will create a file `database.txt`. Don't delete this file, because this file is used to save your username and password, so you don't need to input your username and password repeatedly.
 - Please don't move files to another directory or change the file name to make sure this program can run properly.
-- You can create a shortcut of 'BinusMyClass.exe' to your desktop for easy access with this [reference](https://www.howtogeek.com/436615/how-to-create-desktop-shortcuts-on-windows-10-the-easy-way/)
+- You can create a shortcut of `BinusMyClass.exe` to your desktop for easy access with this [reference](https://www.howtogeek.com/436615/how-to-create-desktop-shortcuts-on-windows-10-the-easy-way/)
 
 ## Disclaimer
 
