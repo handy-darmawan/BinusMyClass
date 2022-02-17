@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\0000\\Java\\DriverAutomation\\selenium-server-4.1.1.jar",
+        "d:\\0000\\Java\\DriverAutomation\\webdrivermanager-5.0.3-fat.jar"
+    ]
+}
