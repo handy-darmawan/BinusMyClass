@@ -70,17 +70,17 @@ public class BinusMyClass {
 
 		//display data
 		System.out.println("Your Class List");
-		System.out.println("=====================================================================================================================================");
+		System.out.println("==================================================================================================================================");
 		int counter = 0;
 		if(courses.isEmpty()) System.out.println("No Schedule Available Yet");
 		else {
 			for(var i : courses) {
 				System.out.print("No. " + ++counter + "\t: ");
-				System.out.printf("%-50s %-15s %-15s %-20s %-20s\n", i.getCourseName().getText(), i.getClassCode().getText(),
+				System.out.printf("%-65s %-7s %-5s %-15s %-20s\n", i.getCourseName().getText(), i.getClassCode().getText(),
 				i.getDeliveryMode().getText(), i.getDate().getText(), i.getTime().getText());
 			}
 		}
-		System.out.println("=====================================================================================================================================");
+		System.out.println("==================================================================================================================================");
 		System.out.println("Note: Please close your all chrome browser to get the Zoom class link. Thank you!\n");
 		
 		//if there's schedule, prompt user input
@@ -128,7 +128,7 @@ public class BinusMyClass {
 
 	void getAllCourses() {
 		//get the table of courses
-		Util.sleep(3.0);
+		Util.sleep(2);
 		WebElement getTableElement = null;
 
 		try {
@@ -171,10 +171,10 @@ public class BinusMyClass {
 		WebElement getPassword = driver.findElement(By.xpath("//*[@id='Password']"));
 		getPassword.sendKeys(Util.password);
 		//click button
-		Util.sleep(0.5);
+		Util.sleep(0.2);
 		driver.findElement(By.xpath("//*[@id='btnSubmit']")).click();
 		
-		Util.sleep(1);
+		Util.sleep(0.5);
 		Util.clear();
 		//check unsuccessfull login by checking the name
 		try {
