@@ -1,4 +1,4 @@
-## Binus MyClass Automation (Website has been changed)
+## Binus MyClass Automation (This program doesn't work due to the website has been changed)
 
 This is a automation program to display all your class list in the [BinusMyClass](https://myclass.apps.binus.ac.id/Auth) website and you can also open zoom meetings with this program.
 
