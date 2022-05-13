@@ -10,7 +10,7 @@ This program is made using Java and `Selenium driver` which can enable web brows
 - Download the `BinusMyClass.exe`
 - Then run the program and follow the flow of the program.
 > Note: 
-> 1. After downloaded the `BinusMyClass.exe`, you may seen "BinusMyClass.exe is not commonly downloaded and may be dangerous." You can't ignore that, because this program doesn't contain any viruses 
+> 1. After downloaded the `BinusMyClass.exe`, you may seen "BinusMyClass.exe is not commonly downloaded and may be dangerous." You can ignore that, because this program doesn't contain any viruses.
 >2. Before run this program, please close all the chrome browser. Because this selenium driver will use your chrome default browser to run the zoom meetings.
 
 ## Information
